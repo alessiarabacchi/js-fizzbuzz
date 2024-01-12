@@ -1,0 +1,41 @@
+:root {
+  --body-bg-color: #083b4c;
+  --number-bg-color: #1389b2;
+  --fizz-bg-color: #0cd6a1;
+  --buzz-bg-color: #ffd166;
+  --fizzbuzz-bg-color: #f0466f;
+}
+
+body {
+  background-color: var(--body-bg-color);
+}
+
+h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+
+  background-color: var(--number-bg-color);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.box.fizz {
+  background-color: var(--fizz-bg-color);
+}
+
+.box.buzz {
+  background-color: var(--buzz-bg-color);
+}
+
+.box.fizzbuzz {
+  background-color: var(--fizzbuzz-bg-color);
+}
